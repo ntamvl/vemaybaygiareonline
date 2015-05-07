@@ -9,7 +9,10 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/isotope.js"></script>
 
@@ -72,16 +75,9 @@
 	  e.preventDefault()
 	  $(this).tab('show')
 	})
-
-
 }(jQuery));
 
-
-</script>
-
-<script type="text/javascript">
-  $(document).ready(function(){
-
+$(document).ready(function(){
     var adult = document.getElementById('adult');
     var child = document.getElementById('child');
     var infant = document.getElementById('infant');
@@ -152,28 +148,28 @@
   // For search box : END
 
   // Ajax call when search airport code in form search
-  $.getJSON( "active_airports.json", function( airport_list ) {
+  $.getJSON( "<?php echo get_stylesheet_directory_uri(); ?>/js/active_airports.json", function( airport_list ) {
     $(".departure-search").select2({data: airport_list});
     $(".destination-search").select2({data: airport_list});
   });
   // End ajax call airport code
+
+  function addDays(date,days) {
+    return new Date(date.getTime() + days*24*60*60*1000);
+  }
+  function parseDate(input) {
+    var parts = input.split('-');
+    return new Date(parts[2], parts[1]-1, parts[0]); // months are 0-based
+  }
+
+  function setDay(date_string ,days){
+    return addDays(new Date(Date.parse(parseDate(date_string))), days);
+  }
+
+  function closePopup(popup){
+    $(popup).hide();
+  }
 });
-
-function addDays(date,days) {
-  return new Date(date.getTime() + days*24*60*60*1000);
-}
-function parseDate(input) {
-  var parts = input.split('-');
-  return new Date(parts[2], parts[1]-1, parts[0]); // months are 0-based
-}
-
-function setDay(date_string ,days){
-  return addDays(new Date(Date.parse(parseDate(date_string))), days);
-}
-
-function closePopup(popup){
-  $(popup).hide();
-}
 
 </script>
 
@@ -181,4 +177,3 @@ function closePopup(popup){
 
   </body>
 </html>
-

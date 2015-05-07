@@ -150,7 +150,7 @@ a:focus, a:hover{color:#ff0052;}
 	ol.commentlist li.parent { border-left:1px solid #eee; }
 	ol.commentlist li.bypostauthor .fn{	font-weight: bold;}
 
-	input{ margin-right:10px;padding: 10px;border:none;background: #eee;}
+	input{ margin-right:10px;padding: 10px;border:none;background: #fff;}
 	textarea{ float:left;padding:10px;width:90%;border:none;background: #eee;}
 	#submit{margin-top:10px;background: #00ebbe; color:#fff;text-transform: uppercase;padding: 15px 20px;}
 

@@ -18,11 +18,6 @@
     <!-- Custom styles for this template -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
-    <link href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
     <!-- Google web Font -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100' rel='stylesheet' type='text/css'>
 
@@ -39,6 +34,9 @@
 	<?php if (get_option('fullby_analytics') <> "") { echo get_option('fullby_analytics'); } ?>
 
 	<?php wp_head(); ?>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+  <link href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" />
 
 </head>
 <body <?php body_class(); ?>>
