@@ -1,0 +1,453 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced-Featured-Post-Widget\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-featured-post-"
+"widget\n"
+"POT-Creation-Date: 2014-11-01 14:58+0200\n"
+"PO-Revision-Date: 2014-11-01 14:59+0200\n"
+"Last-Translator: Waldemar Stoffel <stoffel@atelier-furnf.de>\n"
+"Language-Team: Waldemar Stoffel <info@waldemarstoffel.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: advanced-fpw.php:96
+msgid "FAQ"
+msgstr "FAQ"
+
+#: advanced-fpw.php:97
+msgid "Donate"
+msgstr "Spenden"
+
+#: advanced-fpw.php:107 class-lib/A5_OptionPageClass.php:31
+#: class-lib/AFPW_AdminClass.php:48
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class-lib/A5_ImageClass.php:47
+msgid "Permalink to"
+msgstr "Link zu: "
+
+#: class-lib/A5_OptionPageClass.php:145
+msgid "Click to toggle"
+msgstr "Zum Umschalten klicken"
+
+#: class-lib/AFPW_AdminClass.php:61
+msgid ""
+"http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/advanced-featured-"
+"post-widget"
+msgstr ""
+"http://blog.atelier-fuenf.de/wordpress-plugins/advanced-featured-post-widget"
+
+#: class-lib/AFPW_AdminClass.php:61
+msgid "Plugin Support"
+msgstr "Plugin Support"
+
+#: class-lib/AFPW_AdminClass.php:63
+msgid ""
+"Style the links of the widget. If you leave this empty, your theme will "
+"style the hyperlinks."
+msgstr ""
+"Style die Links im Widget. Wenn diese Felder leer bleiben, übernimmt das "
+"Theme das Styling der Hyperlinks."
+
+#: class-lib/AFPW_AdminClass.php:65
+msgid "Just input something like,"
+msgstr "Just input something like,"
+
+#: class-lib/AFPW_AdminClass.php:67
+msgid "to get fat, blue, underlined links."
+msgstr "eingeben, um fette, blaue, unterstrichene Links zu bekommen."
+
+#: class-lib/AFPW_AdminClass.php:69
+msgid ""
+"You most probably have to use &#39;!important&#39; at the end of each line, "
+"to make it work."
+msgstr ""
+"Höchstwahrscheinlich musst du &#39;!important&#39; am Ende jeder Zeile "
+"eingeben, um die Styles zu übernehmen."
+
+#: class-lib/AFPW_AdminClass.php:81
+msgid "Debug Info"
+msgstr "Info zur Fehlersuche"
+
+#: class-lib/AFPW_AdminClass.php:108
+msgid "Styling of the links"
+msgstr "Styling der Links"
+
+#: class-lib/AFPW_AdminClass.php:110
+msgid "Link style:"
+msgstr "Link Stil:"
+
+#: class-lib/AFPW_AdminClass.php:112
+msgid "Hover style:"
+msgstr "Hover Stil:"
+
+#: class-lib/AFPW_AdminClass.php:114
+msgid "Widget container:"
+msgstr "Widget Container:"
+
+#: class-lib/AFPW_AdminClass.php:114
+msgid ""
+"You can enter your own style for the widgets here. This will overwrite the "
+"styles of your theme."
+msgstr ""
+"Du kannst deinen eigenen Stil für die Widgets hier eingeben. Das wird die "
+"Stile deines Themes überschreiben."
+
+#: class-lib/AFPW_AdminClass.php:114
+msgid ""
+"If you leave this empty, you can still style every instance of the widget "
+"individually."
+msgstr ""
+"Wenn du das Feld leer lässt, kannst du immer noch jede Instanz des Widgets "
+"individuell stylen."
+
+#: class-lib/AFPW_AdminClass.php:116
+msgid "Compress Style Sheet:"
+msgstr "Stylesheet Komprimieren:"
+
+#: class-lib/AFPW_AdminClass.php:116
+msgid "Click here to compress the style sheet."
+msgstr "Anklicken, um das Stylesheet zu komprimieren."
+
+#: class-lib/AFPW_AdminClass.php:118
+msgid "Debug:"
+msgstr "Debug:"
+
+#: class-lib/AFPW_AdminClass.php:118
+msgid ""
+"If you can&#39;t reach the dynamical style sheet, you&#39;ll have to display "
+"the styles inline. By clicking here you can do so."
+msgstr ""
+"In manchen Fällen kann das virtuelle Style Sheet nicht erreicht werden. Ein "
+"Ablegen des CSS im Quellcode hilft dann. Hier klicken, um CSS inline zu "
+"schreiben."
+
+#: class-lib/AFPW_AdminClass.php:120
+msgid "Priority of the inline style:"
+msgstr "Priorität für Stile inline:"
+
+#: class-lib/AFPW_AdminClass.php:120
+msgid ""
+"This only affects inline styles. Some other plugins could be using the same "
+"selectors as this one. In that case, writing your&#39;s later in the code "
+"might help."
+msgstr ""
+"Das betrifft nur Stile, die inline geschrieben werden. Einige Plugins "
+"könnten dieselben CSS-Selektoren benutzen, wie dieses. In diesem Fall kann "
+"es helfen, die Stile später in den Quellcode zu schreiben."
+
+#: class-lib/AFPW_AdminClass.php:124
+msgid "entries"
+msgstr "Einträge"
+
+#: class-lib/AFPW_AdminClass.php:124
+msgid "entry"
+msgstr "Eintrag"
+
+#: class-lib/AFPW_AdminClass.php:126
+#, php-format
+msgid "Empty cache (%d %s):"
+msgstr "Cache leeren (%d %s):"
+
+#: class-lib/AFPW_AdminClass.php:126
+msgid "You can empty the plugin&#39;s cache here, if necessary."
+msgstr "Falls nötig, kannst du hier den Cache des Plugins leeren."
+
+#: class-lib/AFPW_AdminClass.php:134
+msgid "Just put some css code here."
+msgstr "Einfach CSS Code hier eingeben."
+
+#: class-lib/AFPW_AdminClass.php:203
+msgid "Cache emptied."
+msgstr "Cache geleert."
+
+#: class-lib/AFPW_WidgetClass.php:20
+msgid ""
+"You can feature a certain post in this widget and display it, where and "
+"however you want, in your widget areas. A backup post can be given to avoid "
+"dubble content. Define, on what pages the widget will show."
+msgstr ""
+"Mit diesem Widget kannst du einen Artikel deiner Wahl ins Highlight stellen. "
+"Ein Backup-Artikel kann eingegeben werden, um doppelten Inhalt zu vermeiden. "
+"Bestimme, auf welchen Seiten das Widget zu sehen ist."
+
+#: class-lib/AFPW_WidgetClass.php:134
+msgid "Homepage"
+msgstr "Homepage"
+
+#: class-lib/AFPW_WidgetClass.php:135
+msgid "Frontpage (e.g. a static page as homepage)"
+msgstr "Frontpage (z.B. eine statische Seite als Homepage)"
+
+#: class-lib/AFPW_WidgetClass.php:136
+msgid "&#34;Page&#34; pages"
+msgstr "&#34;Seite&#34; Seiten"
+
+#: class-lib/AFPW_WidgetClass.php:137
+msgid "Category pages"
+msgstr "Kategorieseiten"
+
+#: class-lib/AFPW_WidgetClass.php:138
+msgid "Single post pages"
+msgstr "Artikelseiten"
+
+#: class-lib/AFPW_WidgetClass.php:139
+msgid "Archive pages"
+msgstr "Archivseiten"
+
+#: class-lib/AFPW_WidgetClass.php:140
+msgid "Post type archives"
+msgstr "Post Type Archive"
+
+#: class-lib/AFPW_WidgetClass.php:141
+msgid "Tag pages"
+msgstr "Schlagwortseiten"
+
+#: class-lib/AFPW_WidgetClass.php:142
+msgid "Attachments"
+msgstr "Attachments"
+
+#: class-lib/AFPW_WidgetClass.php:143
+msgid "Custom Taxonomy pages (only available, if having a plugin)"
+msgstr "Custom Taxonomy Seiten (gibt es nur mit entspr. Plugin)"
+
+#: class-lib/AFPW_WidgetClass.php:144
+msgid "Author pages"
+msgstr "Autorenseiten"
+
+#: class-lib/AFPW_WidgetClass.php:145
+msgid "Search Results"
+msgstr "Suchergebnisseiten"
+
+#: class-lib/AFPW_WidgetClass.php:146
+msgid "&#34;Not Found&#34;"
+msgstr "&#34;Nicht gefunden&#34;"
+
+#: class-lib/AFPW_WidgetClass.php:147
+msgid "Login page (only available, if having a plugin)"
+msgstr "Login Seite (gibt es nur mit entspr. Plugin)"
+
+#: class-lib/AFPW_WidgetClass.php:150
+msgid "Check all"
+msgstr "Alles auswählen"
+
+#: class-lib/AFPW_WidgetClass.php:154
+msgid "Above thumbnail"
+msgstr "Über dem Thumbnail"
+
+#: class-lib/AFPW_WidgetClass.php:154
+msgid "Under thumbnail"
+msgstr "Unter dem Thumbnail"
+
+#: class-lib/AFPW_WidgetClass.php:154
+msgid "Don&#39;t show title"
+msgstr "Titel nicht anzeigen"
+
+#: class-lib/AFPW_WidgetClass.php:156
+msgid "Title:"
+msgstr "Titel:"
+
+#: class-lib/AFPW_WidgetClass.php:157
+msgid "Choose here the post, you want to appear in the widget."
+msgstr "Wähle hier den Artikel aus, der im Widget erscheinen soll."
+
+#: class-lib/AFPW_WidgetClass.php:157 class-lib/AFPW_WidgetClass.php:158
+msgid "Take a random post"
+msgstr "Zufälligen Artikel auswählen"
+
+#: class-lib/AFPW_WidgetClass.php:158
+msgid ""
+"Choose here the backup post. It will appear, when a single post page shows "
+"the featured article."
+msgstr ""
+"Wähle hier den Artikel, der als Backup erscheinen soll, falls der erste "
+"Artikel angezeigt wird."
+
+#: class-lib/AFPW_WidgetClass.php:159
+msgid ""
+"Post ID (if you want a custom post type or simply don&#39;t want to use the "
+"dropdown menu):"
+msgstr ""
+"Post ID (falls einen Custom Post Type anzeigen willst oder einfach das "
+"Dropdown-Menü nicht benutzen willst):"
+
+#: class-lib/AFPW_WidgetClass.php:160
+msgid ""
+"ID for backup post (if you want a custom post type or simply you don&#39;t "
+"want to use the dropdown menu):"
+msgstr ""
+"ID für den Backup-Artikel (falls einen Custom Post Type anzeigen willst oder "
+"einfach das Dropdown-Menü nicht benutzen willst):"
+
+#: class-lib/AFPW_WidgetClass.php:161
+msgid "Check to show the categories in which the post is filed."
+msgstr ""
+"Anklicken, um die Kategorien, in denen der Artikel publiziert ist, "
+"anzuzeigen."
+
+#: class-lib/AFPW_WidgetClass.php:162
+msgid ""
+"Give some text that you want in front of the post&#39;s categtories (i.e "
+"&#39;filed under&#39;:"
+msgstr ""
+"Gib hier den Text ein, den du vor den Artikelkategorien haben willst (z.B. "
+"&#39;abgelegt in&#39;):"
+
+#: class-lib/AFPW_WidgetClass.php:163
+msgid "Check to get the first image of the post as thumbnail."
+msgstr ""
+"Anklicken, wenn das erste Artikelbild als Thumbnail genommen werden soll."
+
+#: class-lib/AFPW_WidgetClass.php:164
+msgid "Width of the thumbnail (in px):"
+msgstr "Breite des Thumbnails (in px):"
+
+#: class-lib/AFPW_WidgetClass.php:165
+#, php-format
+msgid ""
+"If wanting a border around the image, write the style here. %s would make it "
+"a black border, 1px wide."
+msgstr ""
+"Wenn du einen Rahmen um das Bild willst, style es hier. %s sorgt für einen "
+"schwarzen, 1px weiten Rahmen."
+
+#: class-lib/AFPW_WidgetClass.php:166
+#, php-format
+msgid "Check to %snot%s display the thumbnail of the post."
+msgstr "Anklicken, wenn %skein%s Thumbnail gewünscht wird."
+
+#: class-lib/AFPW_WidgetClass.php:167
+msgid ""
+"Choose, whether or not to display the title and whether it comes above or "
+"under the thumbnail."
+msgstr ""
+"Wähle ob und Titel angezeigt werden soll und ob er über oder unter dem "
+"Thumbnail sein soll."
+
+#: class-lib/AFPW_WidgetClass.php:168
+msgid "Weight of the Post Title:"
+msgstr "Gewicht der Überschrift:"
+
+#: class-lib/AFPW_WidgetClass.php:169
+msgid ""
+"If the excerpt of the post is not defined, by default the first 3 sentences "
+"of the post are shown. You can enter your own excerpt here, if you want."
+msgstr ""
+"Falls kein Auszug definiert ist, werden die ersten 3 Sätze des Artikels "
+"genommen. Hier kannst du einen eigenen Auszug eingeben."
+
+#: class-lib/AFPW_WidgetClass.php:170
+msgid "In case there is no excerpt defined, how many sentences are displayed:"
+msgstr ""
+"Wie viele Sätze des Posts sollen angezeigt werden, falls kein Auszug "
+"definiert ist:"
+
+#: class-lib/AFPW_WidgetClass.php:171
+msgid "Check to display words instead of sentences."
+msgstr "Anklicken, wenn Wörter statt Sätze angezeigt werden sollen."
+
+#: class-lib/AFPW_WidgetClass.php:172
+msgid "Check to display the full post instead of an excerpt."
+msgstr "Anklicken, um den ganzen Post anstelle des Auszugs zu zeigen."
+
+#: class-lib/AFPW_WidgetClass.php:173
+msgid "Check to have each sentence in a new line."
+msgstr "Anklicken, um jeden Satz in einer neuen Zeile zu haben."
+
+#: class-lib/AFPW_WidgetClass.php:174
+#, php-format
+msgid "Check to %snot%s display the excerpt."
+msgstr "Anklicken, um %skeinen%s Auszug anzuzeigen."
+
+#: class-lib/AFPW_WidgetClass.php:175
+msgid ""
+"Check to suppress shortcodes in the widget (in case the content is showing)."
+msgstr ""
+"Anklicken, um Shortcode im Widget zu unterdrücken (falls der Artikel "
+"angezeigt wird)."
+
+#: class-lib/AFPW_WidgetClass.php:176
+msgid ""
+"Check to return the excerpt unfiltered (might avoid interferences with other "
+"plugins)."
+msgstr ""
+"Anklicken, um den Auzug ungefiltert zu bekommen (das könnte Interferenzen "
+"mit anderen Plugins vermeiden)."
+
+#: class-lib/AFPW_WidgetClass.php:177
+msgid ""
+"Check to have an additional &#39;read more&#39; link at the end of the "
+"excerpt."
+msgstr ""
+"Anklicken, um einen zusätzlichen &#39;mehr lesen&#39;-Link am Ende des "
+"Auszugs anzuzeigen."
+
+#: class-lib/AFPW_WidgetClass.php:178
+#, php-format
+msgid ""
+"Write here some text for the &#39;read more&#39; link. By default, it is %s:"
+msgstr ""
+"Schreibe hier einen Text für den &#39;mehr lesen&#39;-Link. Standard ist %s:"
+
+#: class-lib/AFPW_WidgetClass.php:179
+msgid ""
+"If you want to style the &#39;read more&#39; link, you can enter a class "
+"here."
+msgstr ""
+"Um den &#39;mehr lesen&#39;-Link zu stylen, einfach hier eine Klasse angeben."
+
+#: class-lib/AFPW_WidgetClass.php:180
+msgid ""
+"Check, where you want to show the widget. By default, it is showing on the "
+"homepage and the category pages:"
+msgstr ""
+"Klicke an, wo das Widget gezeigt werden soll. Standardmäßig erscheint es auf "
+"der Homepage und in den Kategorien."
+
+#: class-lib/AFPW_WidgetClass.php:181
+#, php-format
+msgid ""
+"Here you can finally style the widget. Simply type something like%1$s"
+"%2$sborder: 2px solid;%2$sborder-color: #cccccc;%2$spadding: 10px;%3$s%2$sto "
+"get just a gray outline and a padding of 10 px. If you leave that section "
+"empty, your theme will style the widget."
+msgstr ""
+"Hier kannst du das Widget stylen. Einfach etwas wie%1$s%2$sborder: 2px solid;"
+"%2$sborder-color: #cccccc;%2$spadding: 10px;%3$s%2$seingeben, um eine graue "
+"Außenlinie und einen inneren Abstand von 10 px zu erzeugen. Wenn dieses Feld "
+"leer bleibt, übernimmt dein Theme das Styling des Widgets."
+
+#~ msgid ""
+#~ "The Advanced Featured Post Widget is yet another plugin to make your blog "
+#~ "a bit more newspaper-like. Just by choosing a post from the dropdown "
+#~ "menu, you can put it in the 'featured' area and display thumbnail, "
+#~ "headline, excerpt or all three of them (if available) in the fully "
+#~ "customizable widget. It just has more options than the the Featured Post "
+#~ "Widget."
+#~ msgstr ""
+#~ "Das Advanced Featured Post Widget ist bloß ein anderes Plugin, um dein "
+#~ "Blog ein bisschen mehr nach Online-Zeitung aussehen zu lassen. Durch "
+#~ "einfache Auswahl eines Artikels aus dem Dropdown Menü kannst du diesen "
+#~ "ins Highlight setzen and Thumbnail, Überschrift, Auszug oder alle drei "
+#~ "(falls vorhanden) im sehr flexiblen Widget anzeigen. Es hat mehr Optionen "
+#~ "als das Featured Post Widget."
+
+#~ msgid "Waldemar Stoffel"
+#~ msgstr "Waldemar Stoffel"
+
+#~ msgid "http://www.waldemarstoffel.com"
+#~ msgstr "http://www.waldemarstoffel.com"

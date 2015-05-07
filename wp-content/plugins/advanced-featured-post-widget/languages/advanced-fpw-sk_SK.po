@@ -1,0 +1,388 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Featured Post Widget\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-featured-post-"
+"widget\n"
+"POT-Creation-Date: 2014-04-22 22:32+0200\n"
+"PO-Revision-Date: 2014-04-22 22:33+0200\n"
+"Last-Translator: Waldemar Stoffel <stoffel@atelier-fuenf.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: advanced-fpw.php:96
+msgid "FAQ"
+msgstr "FAQ"
+
+#: advanced-fpw.php:97
+msgid "Donate"
+msgstr "Darovať"
+
+#: advanced-fpw.php:107 class-lib/A5_OptionPageClass.php:31
+#: class-lib/AFPW_AdminClass.php:48
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: class-lib/A5_ImageClass.php:47
+msgid "Permalink to"
+msgstr "Permalink na"
+
+#: class-lib/A5_OptionPageClass.php:112
+msgid "Click to toggle"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:61
+msgid ""
+"http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/advanced-featured-"
+"post-widget"
+msgstr ""
+"http://wasistlos.waldemarstoffel.com/plugins-fur-wordPress/advanced-featured-"
+"post-widget"
+
+#: class-lib/AFPW_AdminClass.php:61
+msgid "Plugin Support"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:63
+msgid ""
+"Style the links of the widget. If you leave this empty, your theme will "
+"style the hyperlinks."
+msgstr ""
+"Štýl odkazy widget. Necháte prázdne, vaša téma bude štýl hypertextové "
+"prepojenia."
+
+#: class-lib/AFPW_AdminClass.php:65
+msgid "Just input something like,"
+msgstr "Stačí zadať niečo ako,"
+
+#: class-lib/AFPW_AdminClass.php:67
+msgid "to get fat, blue, underlined links."
+msgstr "tučná, modrý, podčiarknutý odkazy."
+
+#: class-lib/AFPW_AdminClass.php:69
+msgid ""
+"You most probably have to use &#34;!important&#34; at the end of each line, "
+"to make it work."
+msgstr ""
+"Budete pravdepodobne musieť použiť &amp;#34;! dôležité &amp;#34; na konci "
+"každého riadku, aby to fungovalo."
+
+#: class-lib/AFPW_AdminClass.php:81
+msgid "Debug Info"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:108
+msgid "Styling of the links"
+msgstr "Styling Odkazy"
+
+#: class-lib/AFPW_AdminClass.php:110
+msgid "Link style:"
+msgstr "Link štýl:"
+
+#: class-lib/AFPW_AdminClass.php:112
+msgid "Hover style:"
+msgstr "Hover štýl:"
+
+#: class-lib/AFPW_AdminClass.php:114
+msgid "Widget container:"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:114
+msgid ""
+"You can enter your own style for the widgets here. This will overwrite the "
+"styles of your theme."
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:114
+msgid ""
+"If you leave this empty, you can still style every instance of the widget "
+"individually."
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:116
+msgid "Compress Style Sheet:"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:116
+msgid "Click here to compress the style sheet."
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:118
+msgid "Debug:"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:118
+msgid ""
+"If you can&#39;t reach the dynamical style sheet, you&#39;ll have to display "
+"the styles inline. By clicking here you can do so."
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:122
+msgid "entries"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:122
+msgid "entry"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:124
+#, php-format
+msgid "Empty cache (%d %s):"
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:124
+msgid "You can empty the plugin&#39;s cache here, if necessary."
+msgstr ""
+
+#: class-lib/AFPW_AdminClass.php:132
+msgid "Just put some css code here."
+msgstr "Len dať nejaký kód css tu."
+
+#: class-lib/AFPW_AdminClass.php:192
+msgid "Cache emptied."
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:20
+msgid ""
+"You can feature a certain post in this widget and display it, where and "
+"however you want, in your widget areas. A backup post can be given to avoid "
+"dubble content. Define, on what pages the widget will show."
+msgstr ""
+"Môžete funkcie určitého miesta v tento widget a Zobraziť to, kde a Avšak "
+"chcete vo vašom oblastiach widget. Záložné miesto môžete venovať vyhnúť "
+"Dubbla obsah. Definovať, na aké stránky widget ukáže."
+
+#: class-lib/AFPW_WidgetClass.php:130
+msgid "Homepage"
+msgstr "Domovská stránka"
+
+#: class-lib/AFPW_WidgetClass.php:131
+msgid "Frontpage (e.g. a static page as homepage)"
+msgstr "FrontPage (napr statickú stránku ako domovskú stránku)"
+
+#: class-lib/AFPW_WidgetClass.php:132
+msgid "&#34;Page&#34; pages"
+msgstr "&amp;#34; stránky &amp;#34; stránok"
+
+#: class-lib/AFPW_WidgetClass.php:133
+msgid "Category pages"
+msgstr "Stránky kategórie"
+
+#: class-lib/AFPW_WidgetClass.php:134
+msgid "Single post pages"
+msgstr "Jediný príspevok stránky"
+
+#: class-lib/AFPW_WidgetClass.php:135
+msgid "Archive pages"
+msgstr "Archívne stránky"
+
+#: class-lib/AFPW_WidgetClass.php:136
+msgid "Tag pages"
+msgstr "Značku stránok"
+
+#: class-lib/AFPW_WidgetClass.php:137
+msgid "Attachments"
+msgstr "Prílohy"
+
+#: class-lib/AFPW_WidgetClass.php:138
+msgid "Custom Taxonomy pages (only available, if having a plugin)"
+msgstr "Vlastné stránky taxonómie (k dispozícii iba, ak s plugin)"
+
+#: class-lib/AFPW_WidgetClass.php:139
+msgid "Author pages"
+msgstr "Autor stránky"
+
+#: class-lib/AFPW_WidgetClass.php:140
+msgid "Search Results"
+msgstr "Výsledky hľadania"
+
+#: class-lib/AFPW_WidgetClass.php:141
+msgid "&#34;Not Found&#34;"
+msgstr "&#34; Nenašiel &#34;"
+
+#: class-lib/AFPW_WidgetClass.php:144
+msgid "Check all"
+msgstr "Začiarknuť všetky"
+
+#: class-lib/AFPW_WidgetClass.php:148
+msgid "Above thumbnail"
+msgstr "Nad miniatúru"
+
+#: class-lib/AFPW_WidgetClass.php:148
+msgid "Under thumbnail"
+msgstr "V náhľadmi"
+
+#: class-lib/AFPW_WidgetClass.php:148
+msgid "Don&#39;t show title"
+msgstr "Don &amp;#39; t Zobraziť názov"
+
+#: class-lib/AFPW_WidgetClass.php:150
+msgid "Title:"
+msgstr "Názov:"
+
+#: class-lib/AFPW_WidgetClass.php:151
+msgid "Choose here the post, you want to appear in the widget."
+msgstr "Vyberte si tu post, ktoré chcete zobraziť v widget."
+
+#: class-lib/AFPW_WidgetClass.php:151 class-lib/AFPW_WidgetClass.php:152
+msgid "Take a random post"
+msgstr "Vziať náhodný príspevok"
+
+#: class-lib/AFPW_WidgetClass.php:152
+msgid ""
+"Choose here the backup post. It will appear, when a single post page shows "
+"the featured article."
+msgstr ""
+"Vyberte si tu záložné miesto. To sa objaví, keď jediný príspevok stránka "
+"zobrazuje Najlepšie článok."
+
+#: class-lib/AFPW_WidgetClass.php:153
+msgid ""
+"Post ID (if you want a custom post type or simply don&#39;t want to use the "
+"dropdown menu):"
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:154
+msgid ""
+"ID for backup post (if you want a custom post type or simply you don&#39;t "
+"want to use the dropdown menu):"
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:155
+msgid "Check to show the categories in which the post is filed."
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:156
+msgid ""
+"Give some text that you want in front of the post&#39;s categtories (i.e "
+"&#39;filed under&#39;:"
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:157
+msgid "Check to get the first image of the post as thumbnail."
+msgstr "Skontrolujte si prvý obrázok z post ako miniatúry."
+
+#: class-lib/AFPW_WidgetClass.php:158
+msgid "Width of the thumbnail (in px):"
+msgstr "Šírka miniatúry (v px):"
+
+#: class-lib/AFPW_WidgetClass.php:159
+#, php-format
+msgid ""
+"If wanting a border around the image, write the style here. %s would make it "
+"a black border, 1px wide."
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:160
+#, php-format
+msgid "Check to %snot%s display the thumbnail of the post."
+msgstr "Skontrolujte % sopel %s zobrazenie Miniatúry post."
+
+#: class-lib/AFPW_WidgetClass.php:161
+msgid ""
+"Choose, whether or not to display the title and whether it comes above or "
+"under the thumbnail."
+msgstr "Vyberte, či chcete zobraziť názov a či ide nad alebo pod miniatúrou."
+
+#: class-lib/AFPW_WidgetClass.php:162
+msgid "Weight of the Post Title:"
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:163
+msgid ""
+"If the excerpt of the post is not defined, by default the first 3 sentences "
+"of the post are shown. You can enter your own excerpt here, if you want."
+msgstr ""
+"Ak výpis post nie je definovaná predvolená prvé 3 vety príspevok nám ukázal. "
+"Môžete zadať vlastné výpis tu, ak chcete."
+
+#: class-lib/AFPW_WidgetClass.php:164
+msgid "In case there is no excerpt defined, how many sentences are displayed:"
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:165
+msgid "Check to display words instead of sentences."
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:166
+msgid "Check to display the full post instead of an excerpt."
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:167
+msgid "Check to have each sentence in a new line."
+msgstr "Skontrolujte si každú vetu v novom riadku."
+
+#: class-lib/AFPW_WidgetClass.php:168
+#, php-format
+msgid "Check to %snot%s display the excerpt."
+msgstr "Skontrolujte %sopel%s Zobraziť výpis."
+
+#: class-lib/AFPW_WidgetClass.php:169
+msgid ""
+"Check to suppress shortcodes in the widget (in case the content is showing)."
+msgstr ""
+"Pozrite sa na potlačenie shortcodes v widget (v prípade, že obsah je "
+"zobrazené)."
+
+#: class-lib/AFPW_WidgetClass.php:170
+msgid ""
+"Check to return the excerpt unfiltered (might avoid interferences with other "
+"plugins)."
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:171
+msgid ""
+"Check to have an additional &#39;read more&#39; link at the end of the "
+"excerpt."
+msgstr "Kontrola mať ďalšie &#39; viac &;#39; odkaz na konci výpis."
+
+#: class-lib/AFPW_WidgetClass.php:172
+#, php-format
+msgid ""
+"Write here some text for the &#39;read more&#39; link. By default, it is %s:"
+msgstr "Tu písať nejaký text pre &;#39; viac &;#39; odkaz. Predvolene je %s:"
+
+#: class-lib/AFPW_WidgetClass.php:173
+msgid ""
+"If you want to style the &#39;read more&#39; link, you can enter a class "
+"here."
+msgstr ""
+
+#: class-lib/AFPW_WidgetClass.php:174
+msgid ""
+"Check, where you want to show the widget. By default, it is showing on the "
+"homepage and the category pages:"
+msgstr ""
+"Začiarknite, ak chcete zobrazenie widget. Predvolene je zobrazené na "
+"domovskej stránky a stránky kategórií:"
+
+#: class-lib/AFPW_WidgetClass.php:175
+#, php-format
+msgid ""
+"Here you can finally style the widget. Simply type something like%1$s"
+"%2$sborder: 2px solid;%2$sborder-color: #cccccc;%2$spadding: 10px;%3$s%2$sto "
+"get just a gray outline and a padding of 10 px. If you leave that section "
+"empty, your theme will style the widget."
+msgstr ""
+"Tu môžete konečne štýl widget. Jednoducho zadajte niečo ako %1$ s"
+"%2$ sborder: 2px solid; %2$ sborder-farba: #cccccc; %2$ spadding: 10px; "
+"%3$ s %2$ sto získať len šedý obrys a výplň 10 px. Ak ponecháte túto sekciu "
+"prázdne, vaša téma bude štýl widget."
+
+#~ msgid "Waldemar Stoffel"
+#~ msgstr "Waldemar Stoffel"
+
+#~ msgid "http://www.waldemarstoffel.com"
+#~ msgstr "http://www.waldemarstoffel.com"

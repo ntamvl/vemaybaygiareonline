@@ -1,0 +1,167 @@
+.st_order_items{
+    width: 100%;
+}
+.icon-st{
+    background: url("logo-st.png") no-repeat center center;
+    width: 24px;
+    height: 24px;
+    margin-left: 7px;
+}
+.st_order_items thead tr th{
+    background: #f8f8f8;
+    padding: 8px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.st_order_items td{
+    padding: 8px;
+    text-align: left;
+    line-height: 26px;
+    vertical-align: top;
+    border-bottom: 1px dotted #ececec;
+}
+.st_order_items td.text-right{
+    text-align: right;
+}
+.st_create_item .form_row{
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.st_create_item .form_row label{
+    width: 150px;
+    display: block;
+    float: left;
+}
+.form_row_spec{
+    display: none;
+}
+.form_row .select2-container{
+    width: 300px;
+}
+.st-wp-filter{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#posts-filter .st-wp-filter
+{
+    margin-bottom: 20px;
+}
+.form-row
+{
+    margin-bottom: 30px;
+    display: table;
+    width: 100%;
+}
+.form-label{
+    /*padding-bottom: 9px;*/
+    /*border-bottom: 1px dashed #ccc;*/
+    display: block;
+    /*margin-bottom: 9px;*/
+    float: left;
+    margin-right: 20px;
+    width: 170px;
+}
+.form-row .controls{
+    display: table;
+}
+.select2-container.form-control{
+    width: 250px;
+    display: block!important;
+}
+
+
+#adminmenu div.wp-menu-image.dashicons-building-yl:before
+{
+    content: "\f512";
+    color: #ed8323;
+}
+#adminmenu div.wp-menu-image.dashicons-location-alt-bl:before
+{
+    content: "\f231";
+    color: #2ea2cc;
+}
+#adminmenu div.wp-menu-image.dashicons-desktop-red:before
+{
+    color: #d54e21;
+    content: "\f472";
+}
+#adminmenu div.wp-menu-image.dashicons-tickets-alt-st:before
+{
+    color: #8e44ad;
+    content: "\f524";
+}
+#adminmenu div.wp-menu-image.dashicons-admin-home-st:before{
+    content: "\f102";
+    color: #16a085;
+}
+#adminmenu div.wp-menu-image.dashicons-palmtree-st:before{
+    content: "\f527";
+    color: #3498db;
+}
+#adminmenu div.wp-menu-image.dashicons-dashboard-st:before{
+    content: "\f226";
+    color: #27ae60;
+}
+#adminmenu div.wp-menu-image.dashicons-tag-st:before{
+    content: "\f323";
+    color: #3498db;
+}
+#adminmenu .dashicons-st-traveler{
+    background: url("logo.png") no-repeat;
+    background-size: 21px;
+    background-position: 50% 50%;
+}
+#adminmenu .toplevel_page_st_traveler_options{
+
+}
+
+.wp-picker-container .iris-picker {
+    z-index: 9999;
+}
+.wp-admin .wrap.settings-wrap .ui-tabs-nav li a
+{
+    padding: 8px 5px 8px 12px;
+    border-bottom: 1px solid #DBDBDB;
+    margin-left: 2px;
+}
+
+.wp-admin #option-tree-header #option-tree-logo a:before
+{
+    content: "";
+    display: none;
+}
+.wp-admin #option-tree-header #option-tree-logo a img{
+    height: 48px;
+}
+.wp-admin #option-tree-header #option-tree-logo a{
+    height: auto;
+    text-align: center;
+    border-right: 0px;
+    margin-right: 10px;
+}
+.wp-admin #option-tree-options-layouts-form{
+    top: auto;
+    bottom: -54px;
+}
+.wp-admin .wrap.settings-wrap .ui-tabs-nav li a
+{
+    color: #818181;
+}
+.wp-admin #option-tree-header #option-tree-version span, #option-tree-header #theme-version span{
+    border-left: 0px;
+    font-size: 25px;
+    margin-top: 13px;
+    font-weight: bold;
+    color: white;
+}
+.wp-admin #option-tree-header li{
+
+    padding: 14px 0px;
+}
+.wp-admin  .wrap.settings-wrap .ui-tabs-nav li.ui-state-active a
+{
+    border-bottom-color:transparent ;
+}
