@@ -164,7 +164,7 @@ a:focus, a:hover{color:#ff0052;}
 
 	input{ margin-right:10px;padding: 10px;border:none;background: #fff;}
 	textarea{ float:left;padding:10px;width:90%;border:none;background: #eee;}
-	#submit{margin-top:10px;background: #00ebbe; color:#fff;text-transform: uppercase;padding: 15px 20px;}
+	#submit{margin-top:10px;background: #10669F; color:#fff;text-transform: uppercase;padding: 15px 20px;}
 
 	/* Video Resposnive */
 	.videoWrapper {position: relative;margin-bottom: 70px;padding-top: 25px;padding-bottom: 56.25%; /* 16:9 */height: 0;}
