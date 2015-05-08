@@ -300,7 +300,7 @@ h2.title-search {font-size:16px; font-style:normal; font-weight:700; color:#666;
 .title-form  {font-size:18px; font-style:italic; color:#333; font-weight:700; line-height:1.2em; margin:12px 0 5px}
 .style-form{ border-radius:0; border:1px solid #9da6ab; margin-bottom:5px;}
 .btn-search {border-radius:0; border:1px solid #10669F; background-color:#10669F; color:#FFF; text-shadow:1px 1px 0px #333; text-transform:uppercase; margin: 0; float:right;}
-.btn-search:hover,.btn-search:active { background-color:#e44c19; color:#FFF}
+.btn-search:hover,.btn-search:active { background-color:#168EDE; color:#FFF}
 .ui-datepicker-trigger{
   height: 20px;
   width: 20px;
