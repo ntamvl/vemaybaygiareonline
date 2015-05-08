@@ -69,7 +69,7 @@
 							} else if ( has_post_thumbnail() ) { ?>
 
 						   <a href="<?php the_permalink(); ?>">
-						        <?php the_post_thumbnail('medium', array('class' => 'grid-cop')); ?>
+						        <?php the_post_thumbnail('full', array('class' => 'grid-cop')); ?>
 						   </a>
 
 						<?php } ?>

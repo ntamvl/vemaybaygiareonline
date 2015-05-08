@@ -105,7 +105,7 @@ a:focus, a:hover{color:#ff0052;}
 	.grid-text{padding:15px 0 0 0;}
 
 	.grid .item {float: left;margin: 0 5px 10px 5px;width: 20%;height: auto;border-right: 1px solid #eee; border-bottom: 1px solid #eee;background: #fff;}
-	.grid .item img{margin:0;width:100%;height:auto;line-height: 0;}
+	.grid .item img{margin:0;width:100%; height:auto; line-height: 0;}
 	.grid .item-w2 {width: 40%;}
 	.grid .item-h2 {height: 322px;}
 	.grid .item-h3 {height: 485px;}
