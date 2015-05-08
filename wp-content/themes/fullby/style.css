@@ -31,7 +31,7 @@ body.admin-bar .navbar-fixed-top {position:fixed;top: 32px;z-index: 1000;height:
 
 /* link color */
 a{color:# 168EDE;} /* #02c29d */
-a:focus, a:hover{color:#ff0052;}
+a:focus, a:hover{color:#10669F;} /* ff0052; */
 
 
 /* Menus */
