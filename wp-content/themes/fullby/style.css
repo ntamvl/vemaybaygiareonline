@@ -35,26 +35,38 @@ a:focus, a:hover{color:#ff0052;}
 
 
 /* Menus */
-.navbar {margin:0;border:none;border-radius:0;background-color: #00ebbe;background-image: none;text-transform: uppercase;}
+.navbar {margin:0;border:none;border-radius:0;background-color: #10669F;background-image: none;text-transform: uppercase;}
 .navbar h1{margin:0;}
-.navbar-inverse .navbar-brand {padding-bottom: 11px;color:#282826; letter-spacing: -2px;font-weight: 300; font-size: 22px;}
+.navbar-inverse .navbar-brand {padding-bottom: 11px;color:#fff; letter-spacing: -2px;font-weight: 300; font-size: 22px;}
 .navbar-inverse .navbar-brand .arrow{margin-right:5px;}
 .navbar-nav ul{list-style-type: none}
 .navbar-inverse .navbar-nav > li > a {color:#000;font-weight: 300;}
-.navbar-inverse .navbar-nav > li > a:hover {background:#04d7af;font-weight: 300;}
+.navbar-inverse .navbar-nav > li > a:hover {background:#168EDE;font-weight: 300;}
 
 	.navbar-inverse .navbar-nav > .active > a,
 	.navbar-inverse .navbar-nav > .active > a:hover,
-	.navbar-inverse .navbar-nav > .active > a:focus {background-color: #282826;color: #FFFFFF;}
+	.navbar-inverse .navbar-nav > .active > a:focus {background-color: #168EDE;color: #FFFFFF;}
 
 	.navbar-sub{background: #f0ede3;}
 	.navbar-sub .navbar-nav > li > a{color:#666; }
-	.navbar-sub .navbar-nav > li > a:hover{background: #dcd9d0;color:#000;}
+	.navbar-sub .navbar-nav > li > a:hover{background: #168EDE;color:#000;}
 
 
 /* Featured Content */
-.featured{display: block;background: #573c29;min-height: 50px}
-.featured .item-featured{position: relative;overflow:hidden;padding:0; /*height: 300px; overflow: hidden;*/ padding-top: 60px !important; padding-bottom: 10px;}
+.featured{
+	display: block;
+	background: #573c29 url(img/desert_sky-wallpaper-1920x1080.jpg) no-repeat center top;
+	/*background: #573c29 url(img/may-bay-6.jpeg) no-repeat center top;*/
+	/*background-size: 100%;*/
+	min-height: 50px
+}
+.featured .item-featured{
+	position: relative;
+	overflow:hidden;padding:0;
+	/*height: 300px; overflow: hidden;*/
+	padding-top: 60px !important;
+	padding-bottom: 10px;
+}
 
 	.featured img{z-index: 50;width: 100%; height:auto;opacity:0.6;
 		-webkit-transition: all 0.3s ease-in-out;
@@ -86,7 +98,7 @@ a:focus, a:hover{color:#ff0052;}
 
 	.cont-grid .post{padding:20px 25px 20px 15px;}
 	.grid-cat{margin:0px 0 0 0; color: #333;text-transform: uppercase; font-weight: 700; font-size: 13px;}
-	.grid-tit{margin:10px 0 10px 0; text-transform: uppercase; font-weight: 300;font-size: 28px; }
+	.grid-tit{margin:10px 0 10px 0; text-transform: uppercase; font-weight: 300;font-size: 20px; }
 	.grid-tit a{color:#333;}
 	.grid-tit a:hover{color:#ff0055;}
 	.grid-cop{padding: 10px 0 0px 0;}
@@ -275,8 +287,8 @@ a:focus, a:hover{color:#ff0052;}
 .btn-search-home {margin-top:10px; padding:10px 0; font-size:20px; text-transform:none;}
 .title-search-mini {font-size:13px; font-weight:700;}
 .margin-top-form {margin-top:15px;}
-h1.title-search {font-size:16px; font-style:italic; font-weight:700; color:#666; margin:0;}
-h2.title-search {font-size:16px; font-style:italic; font-weight:700; color:#666; margin:0;}
+h1.title-search {font-size:16px; font-style:normal; font-weight:700; color:#666; margin:0;}
+h2.title-search {font-size:16px; font-style:normal; font-weight:700; color:#666; margin:0;}
 .height-radio {height:30px;}
 .wapper-search2 .from_date{font-size: 13px; padding: 0 0 0 5px; height: 30px}
 .wapper-search2 .to_date{font-size: 13px; padding: 0 0 0 5px; height: 30px}
@@ -287,7 +299,7 @@ h2.title-search {font-size:16px; font-style:italic; font-weight:700; color:#666;
 .column-form {background-color:#fff; padding:5px 20px 20px 20px  !important; margin:25px 0; box-shadow:2px 2px 4px #CCCCCC }
 .title-form  {font-size:18px; font-style:italic; color:#333; font-weight:700; line-height:1.2em; margin:12px 0 5px}
 .style-form{ border-radius:0; border:1px solid #9da6ab; margin-bottom:5px;}
-.btn-search {border-radius:0; border:1px solid #d75124; background-color:#f45e2c; color:#FFF; text-shadow:1px 1px 0px #333; text-transform:uppercase; margin: 0; float:right;}
+.btn-search {border-radius:0; border:1px solid #10669F; background-color:#10669F; color:#FFF; text-shadow:1px 1px 0px #333; text-transform:uppercase; margin: 0; float:right;}
 .btn-search:hover,.btn-search:active { background-color:#e44c19; color:#FFF}
 .ui-datepicker-trigger{
   height: 20px;
@@ -316,3 +328,24 @@ h2.title-search {font-size:16px; font-style:italic; font-weight:700; color:#666;
 }
 /*END FORM DAT VE*/
 
+.bordered {
+	border:solid 1px #ccc;
+	-webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.fill {
+		width: 100%;
+    min-height: 100%;
+    height: inherit;
+    /*height: 100%;*/
+    /*overflow:auto;*/
+    border: 0;
+    display: block;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+}

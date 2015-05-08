@@ -8,14 +8,21 @@
 		<a href=""><i class="fa fa-youtube fa-2x"></i></a>
 
 	</div>
+	<?php if (!is_home()) { ?>
+	<div style="clear: both;"></div>
+	<div class="col-sm-12 col-md-12 bordered">
+		<?php get_template_part( 'search-box' ); ?>
+		<br/>
+  </div>
+  <?php } ?>
 
 	<div class="tab-spacer">
 
 		<!-- Nav tabs -->
 		<ul class="nav nav-tabs" id="myTab">
 
-			<li class="active"><a href="#home" data-toggle="tab"> <i class="fa fa-bolt"></i> Popular</a></li>
-			<li><a href="#profile" data-toggle="tab"> <i class="fa fa-clock-o"></i> Latest</a></li>
+			<li class="active"><a href="#home" data-toggle="tab"> <i class="fa fa-bolt"></i> Tin khuyến mãi</a></li>
+			<li><a href="#profile" data-toggle="tab"> <i class="fa fa-clock-o"></i> Tin mới nhất</a></li>
 
 		</ul>
 

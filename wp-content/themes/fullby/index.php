@@ -76,7 +76,10 @@
 
 						<div class="grid-text">
 
-							<?php the_content('More...');?>
+							<?php //the_content('More...');?>
+
+							<?php the_excerpt(); ?>
+            	<p class="text-right"><a href="<?php the_permalink(); ?>">Xem chi tiết</a></p>
 
 						</div>
 

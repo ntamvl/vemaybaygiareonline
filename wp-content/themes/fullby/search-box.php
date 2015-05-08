@@ -1,3 +1,4 @@
+<form method="get" action="/tim-ve-may-bay-gia-re/">
 <div class="wapper-search-home">
   <div class="wapper-search2">
     <div class="col-md-12">
@@ -6,7 +7,9 @@
     <div class="row">
       <div class="col-md-6 height-radio col-xs-6">
         <div class="radio text-chon ">
-          <label><input type="radio" name="trip_type" value="roundtrip" checked><span class="title-search-mini">Khứ hồi</span></label>
+          <label>
+            <input type="radio" name="trip_type" value="roundtrip" checked><span class="title-search-mini">Khứ hồi</span>
+          </label>
         </div>
       </div>
       <div class="col-md-6 height-radio col-xs-6">
@@ -61,9 +64,10 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <button type="button" id="search" name="search" class="btn btn-default btn-search btn-search-home col-md-12 col-xs-12"><span class="glyphicon glyphicon-search"></span>
+      <button type="submit" id="search" name="search" class="btn btn-default btn-search btn-search-home col-md-12 col-xs-12"><span class="glyphicon glyphicon-search"></span>
         Tìm chuyến bay
       </button>
     </div>
   </div>
 </div>
+</form>
