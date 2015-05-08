@@ -53,7 +53,7 @@
 
 		    		<h2 class="title"><?php the_title(); ?></h2>
 
-		    		<div class="date"><i class="fa fa-clock-o"></i> <?php the_time('j M , Y') ?> &nbsp;
+		    		<div class="date"><i class="fa fa-clock-o"></i> <?php the_time('d/m/Y') ?> &nbsp;
 
 						<?php
 						$video = get_post_meta($post->ID, 'fullby_video', true );

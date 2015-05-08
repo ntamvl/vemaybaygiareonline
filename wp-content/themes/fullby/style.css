@@ -30,7 +30,7 @@ body, html {margin:0;padding: 0px;height:100%;font-family: lato;}
 body.admin-bar .navbar-fixed-top {position:fixed;top: 32px;z-index: 1000;height: 40px;}
 
 /* link color */
-a{color:#02c29d;}
+a{color:# 168EDE;} /* #02c29d */
 a:focus, a:hover{color:#ff0052;}
 
 

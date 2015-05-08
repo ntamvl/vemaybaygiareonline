@@ -26,10 +26,7 @@
 
 					<div class="sing-spacer">
 
-						<?php //the_content('Leggi...');?>
-
-						<?php the_excerpt(); ?>
-            <p class="text-right"><a href="<?php the_permalink(); ?>">Xem chi tiết</a></p>
+						<?php the_content('Xem chi tiết...');?>
 
 					</div>
 
