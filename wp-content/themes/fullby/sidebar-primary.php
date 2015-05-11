@@ -1,7 +1,7 @@
 	<div class="row">
 		<div class="col-sm-12 col-md-12 hotline">
 			<h2>Hotline đặt vé máy bay giá rẻ </h2>
-			<p><strong>(08) 730.50.180</strong>, (08) 730.50.181, (08) 730.50.182, (08) 730.50.500 <br>
+			<p><strong class="highlight">(08) 730.50.180</strong>, (08) 730.50.181, (08) 730.50.182, (08) 730.50.500 <br>
 			Di Động: <strong class="highlight">0902.98.53.55</strong></p>
 		</div>
 	</div>
