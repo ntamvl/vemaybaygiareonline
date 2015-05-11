@@ -847,3 +847,18 @@ html, body {
 	height: 100%;
 	margin: 0px;
 }
+
+.hotline {
+  font-size: 13px;
+  margin: 20px 0 0px 0;
+}
+
+.hotline h2 {
+	color: #428bca;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.hotline .highlight {
+	color: #ff0000;
+}
