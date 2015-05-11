@@ -35,8 +35,8 @@
 
 	<?php wp_head(); ?>
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
-  <link href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+  <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/select2.min.css" rel="stylesheet" />
+  <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery-ui.css" rel="stylesheet" />
 
 </head>
 <body <?php body_class(); ?>>
