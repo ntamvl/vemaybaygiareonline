@@ -283,6 +283,7 @@ a:focus, a:hover {
 	width: 80%;
 	font-size: 16px;
 	line-height: 26px;
+	background: #fff;
 }
 .single-in {
 	padding: 0;
@@ -670,6 +671,12 @@ textarea {
 	.navbar-toggle .icon-bar {
 		background: #333 !important
 	}
+
+	.panel-search-box {
+		width: 90% !important;
+		margin: 0 auto;
+	}
+
 }
 .single-in > img, .grid >  img, .single > img, p img {
 	width: 100%;
@@ -682,7 +689,8 @@ textarea {
 	/*background-color:#fff; border:1px solid #e6e6e6; margin:20px 0;*/
 }
 .wapper-search2 {
-	padding: 20px;
+	padding: 0px;
+	padding-top: 20px;
 	position: relative;
 }
 .img-noel {
