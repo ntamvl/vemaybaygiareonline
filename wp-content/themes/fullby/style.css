@@ -778,6 +778,7 @@ h2.title-search {
 	border-radius: 0;
 	border: 1px solid #9da6ab;
 	margin-bottom: 5px;
+  border-radius: 4px;
 }
 .btn-search {
 	border-radius: 0;
@@ -812,6 +813,7 @@ h2.title-search {
 	border: 1px solid #9da6ab;
 	position: relative;
 	margin-bottom: 5px;
+	  border-radius: 4px;
 }
 .search-ticket-line h5.title-search {
 	font-size: 12px;
