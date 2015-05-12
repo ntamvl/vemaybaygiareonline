@@ -725,6 +725,7 @@ textarea {
 .title-search-mini {
 	font-size: 13px;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 .margin-top-form {
 	margin-top: 15px;

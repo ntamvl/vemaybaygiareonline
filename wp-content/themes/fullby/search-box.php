@@ -2,7 +2,7 @@
 <div class="wapper-search-home">
   <div class="wapper-search2">
     <div class="col-md-12">
-      <h2 class="title-search">Đặt vé máy bay tại đây</h2>
+      <h2 class="title-search">Đặt vé máy bay giá rẻ ngay</h2>
     </div>
     <div class="row">
       <div class="col-md-6 height-radio col-xs-6">
