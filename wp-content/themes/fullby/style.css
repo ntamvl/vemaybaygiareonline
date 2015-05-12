@@ -648,6 +648,11 @@ textarea {
 	}
 }
 @media (max-width:760px) {
+	.sidebar {
+		display: none !important;
+		visibility: hidden !important;
+	}
+
 	#mainmenu {
 		float: left;
 		width: 100%;
