@@ -15,22 +15,26 @@
                   "?source=vemaygiareonline-net&iframe_page=true";
 ?>
 
-<div id="container-iframe" class="row">
-  <div class="col-sm-12 col-md-12 fill">
-    <iframe class="fill" src="<?php echo $search_url; ?>"></iframe>
-    <!-- onload="window.parent.scrollTo(0,0)" allowtransparency="true" -->
-    <!-- <div class="panel panel-default fill">
-        <div class="panel-body fill">
-          <h1>Searching</h1>
-        </div>
-      <div> -->
+<div class="col-md-9 cont-grid">
+  <div id="container-iframe" class="row">
+    <div class="col-sm-12 col-md-12 fill">
+      <iframe class="fill" src="<?php echo $search_url; ?>"></iframe>
+      <!-- onload="window.parent.scrollTo(0,0)" allowtransparency="true" -->
+    </div>
   </div>
+</div>
+
+<div class="col-md-3 sidebar" id="sidebar-iframe">
+
+  <?php get_sidebar( 'primary' ); ?>
+
 </div>
 
 <script type="text/javascript">
   jQuery(document).ready(function(){
     $(window).resize(function() {
-      jQuery('#container-iframe').height($(window).height() - 110);
+      jQuery('#container-iframe').height($(window).height() - 120);
+      jQuery('#sidebar-iframe').height($(window).height() - 120);
     });
     $(window).trigger('resize');
   });

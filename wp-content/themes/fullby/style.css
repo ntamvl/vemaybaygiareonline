@@ -866,3 +866,7 @@ html, body {
 	color: #ff0000;
 	font-size: 18px;
 }
+
+#sidebar-iframe {
+	overflow: auto;
+}
