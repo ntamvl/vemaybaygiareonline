@@ -102,7 +102,7 @@ a:focus, a:hover {
 /* Featured Content */
 .featured {
 	display: block;
-	background: #573c29 url(img/desert_sky-wallpaper-1920x1080.jpg) no-repeat center top;	/*background: #573c29 url(img/may-bay-6.jpeg) no-repeat center top;*/
+	background: #fff url(img/desert_sky-wallpaper-1920x1080.jpg) no-repeat center top;	/*background: #573c29 url(img/may-bay-6.jpeg) no-repeat center top;*/
 
 	/*background-size: 100%;*/
 	min-height: 50px
