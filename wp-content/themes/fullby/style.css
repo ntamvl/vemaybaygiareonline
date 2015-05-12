@@ -29,7 +29,8 @@ body, html {
 	margin: 0;
 	padding: 0px;
 	height: 100%;
-	font-family: lato;
+	/*font-family: lato;*/
+	font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 body.admin-bar .navbar-fixed-top {
 	position: fixed;
