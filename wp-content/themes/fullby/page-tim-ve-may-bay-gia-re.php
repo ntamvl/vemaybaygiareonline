@@ -10,7 +10,7 @@
   $infant = $_GET['infant'];
   $now = new DateTime();
   $key = md5($now->getTimestamp());
-  $search_url = "http://staging.flightbooking.vn:8089/booking/". $trip_type ."/". $departure ."/". $destination .
+  $search_url = "http://flightbooking.vn/booking/". $trip_type ."/". $departure ."/". $destination .
                   "/". $from_date ."/". $to_date ."/" . $adult . $children . $infant . "/" . $key .
                   "?source=vemaygiareonline-net&iframe_page=true";
 ?>
