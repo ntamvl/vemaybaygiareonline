@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title><?php wp_title('&raquo;','true','right'); ?><?php bloginfo('name'); ?></title>
-    <meta name="description" content="<?php echo get_option('fullby_description'); ?>" />
+    <!-- <meta name="description" content="<?php echo get_option('fullby_description'); ?>" /> -->
 
     <!-- Favicon -->
     <link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/favicon.png" type="image/x-icon">
