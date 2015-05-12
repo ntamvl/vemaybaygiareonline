@@ -15,7 +15,7 @@
                   "?source=vemaygiareonline-net&iframe_page=true";
 ?>
 
-<div class="col-md-9 cont-grid">
+<div class="col-md-9 cont-grid iframe-row">
   <div id="container-iframe" class="row">
     <div class="col-sm-12 col-md-12 fill">
       <iframe class="fill" src="<?php echo $search_url; ?>"></iframe>

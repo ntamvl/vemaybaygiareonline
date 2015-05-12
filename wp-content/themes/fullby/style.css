@@ -895,3 +895,8 @@ html, body {
 .min-2 {
 	min-width: 105px;
 }
+
+.iframe-row {
+	margin: 0;
+	padding: 0;
+}
