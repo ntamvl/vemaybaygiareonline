@@ -876,3 +876,19 @@ html, body {
 #sidebar-iframe {
 	overflow: auto;
 }
+
+.select2-container {
+	min-width: 120px;
+}
+
+.min-0 {
+	min-width: 230px;
+}
+
+.min-1 {
+	min-width: 180px;
+}
+
+.min-2 {
+	min-width: 105px;
+}
