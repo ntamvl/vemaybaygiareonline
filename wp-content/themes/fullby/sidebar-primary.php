@@ -2,7 +2,7 @@
 		<div class="col-sm-12 col-md-12 hotline">
 			<h2>Hotline đặt vé máy bay giá rẻ </h2>
 			<p><strong class="highlight">(08) 730-50-500</strong>, <strong>(08) 730-50-181, (08) 730-50-182, (08) 730-50-183</strong><br>
-			Di Động: <strong class="highlight">0902-98-53-55</strong></p>
+			Di Động: <strong class="highlight">0902 98 53 55</strong></p>
 		</div>
 	</div>
 
