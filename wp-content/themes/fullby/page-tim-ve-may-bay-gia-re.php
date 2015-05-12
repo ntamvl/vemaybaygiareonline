@@ -8,8 +8,11 @@
   $adult = $_GET['adult'];
   $children = $_GET['children'];
   $infant = $_GET['infant'];
-  $search_url = "http://192.168.1.40:3000/booking/". $trip_type ."/". $departure ."/". $destination .
-                  "/". $from_date ."/". $to_date ."/" . $adult . $children . $infant . "&source=vemaygiareonline-net";
+  $now = new DateTime();
+  $key = md5($now->getTimestamp());
+  $search_url = "http://staging.flightbooking.vn:8089/booking/". $trip_type ."/". $departure ."/". $destination .
+                  "/". $from_date ."/". $to_date ."/" . $adult . $children . $infant . "/" . $key .
+                  "?source=vemaygiareonline-net&iframe_page=true";
 ?>
 
 <div id="container-iframe" class="row">
