@@ -17,7 +17,7 @@
 
 <div class="col-md-9 cont-grid iframe-row">
   <div id="container-iframe" class="row">
-    <div class="col-sm-12 col-md-12 fill">
+    <div class="col-sm-12 col-md-12 fill no-margin-lr">
       <iframe class="fill" src="<?php echo $search_url; ?>"></iframe>
       <!-- onload="window.parent.scrollTo(0,0)" allowtransparency="true" -->
     </div>
