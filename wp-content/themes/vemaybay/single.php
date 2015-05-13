@@ -74,9 +74,9 @@
 
 						<hr />
 
-						<div id="comments">
+						<div id="comments" class="hide">
 
-							<?php comments_template(); ?>
+							<?php //comments_template(); ?>
 
 						</div>
 
