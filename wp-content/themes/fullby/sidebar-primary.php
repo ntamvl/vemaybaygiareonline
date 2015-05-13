@@ -18,7 +18,7 @@
 	<?php if (!is_home()) { ?>
 	<div style="clear: both;"></div>
 	<div class="col-sm-12 col-md-12 bordered">
-		<?php get_template_part( 'search-box' ); ?>
+		<?php get_template_part( 'search-box-sidebar' ); ?>
 		<br/>
   </div>
   <?php } ?>
