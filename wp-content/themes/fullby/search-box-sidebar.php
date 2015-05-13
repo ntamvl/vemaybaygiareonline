@@ -52,13 +52,13 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12"><span class="title-search-mini">Người lớn</span><br />(>12 tuổi)
+    <div class="col-md-12"><span class="title-search-mini">Người lớn</span> (>12 tuổi)
       <select class="form-control style-form" name="adult" id="adult"></select>
     </div>
-    <div class="col-md-12"><span class="title-search-mini">Trẻ em</span><br />(2 - 12 tuổi)
+    <div class="col-md-12"><span class="title-search-mini">Trẻ em</span> (2 - 12 tuổi)
       <select class="form-control style-form" name="children" id="child"></select>
     </div>
-    <div class="col-md-12"><span class="title-search-mini">Em bé </span><br />(< 2 tuổi)
+    <div class="col-md-12"><span class="title-search-mini">Em bé </span> (< 2 tuổi)
       <select class="form-control style-form" name="infant" id="infant"></select>
     </div>
 
