@@ -907,3 +907,9 @@ html, body {
 	margin-right: 0 !important;
 	padding-right: 0 !important;
 }
+
+.enclose {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
