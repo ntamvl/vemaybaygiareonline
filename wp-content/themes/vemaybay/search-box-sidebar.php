@@ -65,7 +65,7 @@
     <div class="row">
       <div class="col-md-12 min-2">
         <button type="submit" id="search" name="search" class="btn btn-default btn-search btn-search-home col-md-12 col-xs-12"><span class="glyphicon glyphicon-search"></span>
-          Tìm chuyến bay
+          Tìm
         </button>
       </div>
     </div>
