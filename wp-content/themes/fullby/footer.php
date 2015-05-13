@@ -1,7 +1,7 @@
 <div class="col-md-12 footer">
 
 	&copy; Copyright <?php echo date("o");?>   &nbsp; <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i>  <span><?php bloginfo('name'); ?></span>
-	<span>. Một sản phẩm của <a href="http://flightbooking.vn">Flightbooking.vn</a></span>
+	<!-- <span>. Một sản phẩm của <a href="http://flightbooking.vn">Flightbooking.vn</a></span> -->
 </div>
 
 
