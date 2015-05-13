@@ -24,7 +24,7 @@
       jQuery('.footer').addClass('enclose');
     }
 
-    $('body').css('overflow', 'hidden');
+    // $('body').css('overflow', 'hidden');
 
   });
 </script>
