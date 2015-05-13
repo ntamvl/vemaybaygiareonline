@@ -33,8 +33,8 @@
 <script type="text/javascript">
   jQuery(document).ready(function(){
     $(window).resize(function() {
-      jQuery('#container-iframe').height($(window).height() - 120);
-      jQuery('#sidebar-iframe').height($(window).height() - 120);
+      jQuery('#container-iframe').height($(window).height() - 110);
+      jQuery('#sidebar-iframe').height($(window).height() - 110);
     });
     $(window).trigger('resize');
   });
