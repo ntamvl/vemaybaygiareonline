@@ -32,8 +32,7 @@
     // }
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      jQuery('#container-iframe').height($(window).height() - 50);
-      jQuery('#sidebar-iframe').height($(window).height() - 50);
+      jQuery('.featured-2').height($(window).height() - 50);
     }
 
     // $('body').css('overflow', 'hidden');
