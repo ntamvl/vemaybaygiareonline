@@ -20,7 +20,9 @@
       // jQuery('#search-box-container').height($(window).height() - $('.navbar').outerHeight() - $('.footer').outerHeight() - 80);
       jQuery('.featured-2').height($(window).height() - 110);
     });
+
     $(window).trigger('resize');
+
     if ( $(window).height() > $('#search-box-container').outerHeight() + 60 ) {
       jQuery('.footer').addClass('enclose');
     }
