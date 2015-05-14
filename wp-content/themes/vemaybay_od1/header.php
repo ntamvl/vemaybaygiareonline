@@ -49,7 +49,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a class="navbar-brand" href="<?php echo home_url(); ?>"><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i> <?php bloginfo('name'); ?></a></h1>
+          <h1><a class="navbar-brand" href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+            <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i>
+              <?php bloginfo('name'); ?>
+            </a>
+          </h1>
         </div>
 
         <div id="mainmenu" class="collapse navbar-collapse">
