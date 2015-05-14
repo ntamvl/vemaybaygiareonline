@@ -50,8 +50,9 @@
             <span class="icon-bar"></span>
           </button>
           <h1><a class="navbar-brand" href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
-            <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i>
-              <?php bloginfo('name'); ?>
+            <!-- <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i> -->
+              <?php //bloginfo('name'); ?>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" style="height: 50px; width: auto;">
             </a>
           </h1>
         </div>
