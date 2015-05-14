@@ -946,6 +946,8 @@ a:hover {
 
 .featured-2 {
 	background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -o-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;
 }
 
 .date {
