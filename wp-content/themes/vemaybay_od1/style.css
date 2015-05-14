@@ -106,6 +106,8 @@ a:focus, a:hover {
 	/*background: #fff url(img/desert_sky-wallpaper-1920x1080.jpg) no-repeat center top;*/
 	/*background: #573c29 url(img/may-bay-6.jpeg) no-repeat center top;*/
 	background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -o-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;
 
 	/*background-size: 100%;*/
 	min-height: 50px
