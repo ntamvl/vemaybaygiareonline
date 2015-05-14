@@ -652,7 +652,7 @@ textarea {
 	}
 }
 @media (max-width:760px) {
-	.sidebar {
+	.sidebar, .footer {
 		display: none !important;
 		visibility: hidden !important;
 	}
