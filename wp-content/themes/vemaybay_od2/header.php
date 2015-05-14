@@ -43,13 +43,13 @@
 
     <div class="navbar navbar-inverse navbar-fixed-top">
 
-        <div class="navbar-header col-xs-4">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a class="navbar-brand col-xs-12" href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+          <h1><a class="navbar-brand col-xs-10" href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
             <!-- <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i> -->
               <?php //bloginfo('name'); ?>
               <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" style="height: 50px;">
