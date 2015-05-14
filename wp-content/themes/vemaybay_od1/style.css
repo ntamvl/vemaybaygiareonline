@@ -569,7 +569,8 @@ textarea {
 	padding: 0;
 }
 .panel {
-	background: #eee;
+	/*background: #eee;*/
+	background-color: rgba(255, 255, 255, 1);
 }
 .sticky {
 	border-right: 3px solid #eee;
