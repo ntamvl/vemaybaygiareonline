@@ -18,7 +18,8 @@
 <div class="col-md-9 cont-grid iframe-row">
   <div id="container-iframe" class="row">
     <div class="col-sm-12 col-md-12 fill no-margin-lr">
-      <iframe class="fill" src="<?php echo $search_url; ?>"></iframe>
+      <img id="loader_box" src="<?php echo get_stylesheet_directory_uri(); ?>/img/loading-2.gif" width="128" height="128" alt="loading gif"/>
+      <iframe id="iframe_flights" class="fill" src="<?php echo $search_url; ?>"></iframe>
       <!-- onload="window.parent.scrollTo(0,0)" allowtransparency="true" -->
     </div>
   </div>
@@ -49,6 +50,11 @@
 
     });
     $(window).trigger('resize');
+
+    $('#iframe_flights').on('load', function () {
+        $('#loader_box').hide();
+    });
+
   });
 </script>
 <?php get_footer(); ?>
