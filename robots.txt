@@ -1,0 +1,12 @@
+User-Agent: *
+Allow: /?display=wide
+Allow: /wp-content/uploads/
+Disallow: /wp-content/plugins/
+Disallow: /wp-admin/
+Disallow: /readme.html
+
+Sitemap: http://www.vemaybaygiareonline.net/sitemap_index.xml
+Sitemap: http://www.vemaybaygiareonline.net/post-sitemap.xml
+Sitemap: http://www.vemaybaygiareonline.net/page-sitemap.xml
+Sitemap: http://www.vemaybaygiareonline.net/category-sitemap
+Sitemap: http://www.vemaybaygiareonline.net/post_tag-sitemap.xml
