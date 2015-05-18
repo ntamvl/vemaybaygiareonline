@@ -43,7 +43,7 @@
 													'posts_per_page' => 5,
 													// 'meta_key' => 'wpb_post_views_count',
 													// 'orderby' => 'meta_value_num',
-													'tag_slug__in' => array( 'promotion', 've may bay khuyen mai', 'khuyen mai' ),
+													'tag_slug__in' => array( 'promotion', 've may bay khuyen mai', 'khuyen mai', 'vé máy bay khuyến mãi' ),
 													'orderby' => 'date',
 													'order' => 'DESC'
 												);
