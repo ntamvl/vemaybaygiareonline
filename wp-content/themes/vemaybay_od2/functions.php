@@ -210,7 +210,7 @@ function fullby_settings()
 </div>
 <?php }?>
 <?php // CUSTOM PAGE - Premium Version
-add_action( 'admin_menu', 'register_my_custom_menu_page' );
+// add_action( 'admin_menu', 'register_my_custom_menu_page' );
 
 function register_my_custom_menu_page(){
     add_menu_page( 'Fullby Premium', 'FULLBY Premium', 'manage_options', 'custompage', 'my_custom_menu_page', get_template_directory_uri() . '/img/icon-backend.png', 99);
