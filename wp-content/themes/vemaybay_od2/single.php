@@ -34,6 +34,7 @@
 					<p class="cat"> <?php the_category(','); ?></p>
 
 					<h3 class="sing-tit"><?php the_title(); ?></h3>
+					<h2>Count view as: </h2>
 
 					<p class="meta">
 

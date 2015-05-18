@@ -39,7 +39,15 @@
 			<div class="tab-pane fade in active" id="home">
 
 				<?php // POPULAR POST
-				$popularpost = new WP_Query( array( 'posts_per_page' => 5, 'meta_key' => 'wpb_post_views_count', 'orderby' => 'meta_value_num', 'order' => 'DESC'  ) );
+				$popular_query = array(
+													'posts_per_page' => 5,
+													// 'meta_key' => 'wpb_post_views_count',
+													// 'orderby' => 'meta_value_num',
+													'tag_slug__in' => array( 'promotion', 've may bay khuyen mai', 'khuyen mai' ),
+													'orderby' => 'date',
+													'order' => 'DESC'
+												);
+				$popularpost = new WP_Query( $popular_query );
 				while ( $popularpost->have_posts() ) : $popularpost->the_post();?>
 
 				<a href="<?php the_permalink(); ?>">
