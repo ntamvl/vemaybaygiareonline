@@ -40,8 +40,10 @@
 			<div class="tab-pane fade in active" id="home">
 
 				<?php // POPULAR POST
+				$posts_per_page = 10;
+
 				$popular_query = array(
-													'posts_per_page' => 5,
+													'posts_per_page' => $posts_per_page,
 													// 'meta_key' => 'wpb_post_views_count',
 													// 'orderby' => 'meta_value_num',
 													'tag_slug__in' => array( 'promotion', 've may bay khuyen mai', 'khuyen mai', 'vé máy bay khuyến mãi' ),
@@ -101,7 +103,7 @@
 			<div class="tab-pane fade" id="profile">
 
 		  		<?php
-				$popularpost = new WP_Query( array( 'posts_per_page' => 5) );
+				$popularpost = new WP_Query( array( 'posts_per_page' => $posts_per_page) );
 				while ( $popularpost->have_posts() ) : $popularpost->the_post();?>
 
 					<a href="<?php the_permalink(); ?>">
@@ -156,7 +158,7 @@
 
 	  		<?php
 	  		$top_views_query = array(
-													'posts_per_page' => 5,
+													'posts_per_page' => $posts_per_page,
 													'meta_key' => 'wpb_post_views_count',
 													'orderby' => 'meta_value_num',
 													'order' => 'DESC'
