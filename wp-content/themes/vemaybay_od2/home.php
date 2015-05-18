@@ -36,7 +36,9 @@
             <h2 class="grid-tit"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
             <p class="meta"> <i class="fa fa-clock-o"></i> <?php the_time('d/m/Y') ?> &nbsp;
-              <span class="post-view"><?php echo get_post_meta( get_the_ID(), 'wpb_post_views_count', true ); ?> lượt xem</span>
+              <span class="post-view">
+                <i class="fa fa-eye"></i>
+                <?php echo get_post_meta( get_the_ID(), 'wpb_post_views_count', true ); ?> lượt xem</span>
 
               <?php
               $video = get_post_meta($post->ID, 'fullby_video', true );
