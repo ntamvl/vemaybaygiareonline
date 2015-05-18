@@ -69,6 +69,7 @@
 		    		<h2 class="title"><?php the_title(); ?></h2>
 
 		    		<div class="date"><i class="fa fa-clock-o"></i> <?php the_time('d/m/Y') ?> &nbsp;
+		    		<span class="post-view"><?php echo get_post_meta( get_the_ID(), 'wpb_post_views_count', true ); ?> lượt xem</span>
 
 						<?php
 						$video = get_post_meta($post->ID, 'fullby_video', true );
@@ -118,6 +119,7 @@
 			    		<h2 class="title"><?php the_title(); ?></h2>
 
 			    		<div class="date"><i class="fa fa-clock-o"></i> <?php the_time('d/m/Y') ?> &nbsp;
+			    			<span class="post-view"><?php echo get_post_meta( get_the_ID(), 'wpb_post_views_count', true ); ?> lượt xem</span>
 
 							<?php
 							$video = get_post_meta($post->ID, 'fullby_video', true );
