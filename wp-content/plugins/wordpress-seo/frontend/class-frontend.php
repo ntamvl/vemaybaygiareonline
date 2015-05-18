@@ -614,7 +614,8 @@ class WPSEO_Frontend {
 	 * @return string
 	 */
 	public function debug_marker( $echo = true ) {
-		$marker = '<!-- This site is optimized with the ' . $this->head_product_name() . ' v' . WPSEO_VERSION . ' - https://yoast.com/wordpress/plugins/seo/ -->';
+		// $marker = '<!-- This site is optimized with the ' . $this->head_product_name() . ' v' . WPSEO_VERSION . ' - https://yoast.com/wordpress/plugins/seo/ -->';
+		$marker = '';
 		if ( $echo === false ) {
 			return $marker;
 		}
@@ -1839,6 +1840,8 @@ class WPSEO_Frontend {
 	 * @return string
 	 */
 	private function head_product_name() {
+		return '';
+
 		if ( file_exists( WPSEO_PATH . 'premium/' ) ) {
 			return 'Yoast WordPress SEO Premium plugin';
 		}

@@ -3,6 +3,22 @@
 	if ( ! isset( $content_width ) ) $content_width = 900;
 	add_theme_support( 'automatic-feed-links' );
 
+	/** begin remove meta generator and change locale to vi_VN **/
+	remove_action('wp_head', 'wp_generator');
+
+	add_filter('wpseo_locale', 'override_og_locale');
+	function override_og_locale($locale)
+	{
+		return "vi_VN";
+	}
+
+	function vi_change_language( $locale )
+	{
+	    return 'vi_VN';
+	}
+	add_filter( 'locale', 'vi_change_language');
+	/** end remove meta generator and change locale to vi_VN **/
+
 ?>
 <?php // REPLY comment script
 
