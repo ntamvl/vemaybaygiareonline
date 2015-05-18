@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php wp_title('&raquo;','true','right'); ?><?php bloginfo('name'); ?></title>
+    <title><?php wp_title('&raquo;','true','right'); ?><?php //bloginfo('name'); ?></title>
     <!--  -->
 
     <!-- Favicon -->
