@@ -109,8 +109,10 @@ a:focus, a:hover {
 	/*background: #fff url(img/desert_sky-wallpaper-1920x1080.jpg) no-repeat center top;*/
 	/*background: #573c29 url(img/may-bay-6.jpeg) no-repeat center top;*/
 	/*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;*/
+	background: #ffcd00 url(img/blue-sky.jpg) no-repeat center top;
+	background-size: cover;
 
-	background: #ffcd00;
+	/*background: #ffcd00;
   background: -moz-linear-gradient(top,#ffc600 0,#ffbe00 100%);
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffc600),color-stop(100%,#ffbe00));
   background: -webkit-linear-gradient(top,#ffc600 0,#ffbe00 100%);
@@ -118,7 +120,7 @@ a:focus, a:hover {
   background: -ms-linear-gradient(top,#ffc600 0,#ffbe00 100%);
   background: linear,to bottom,#ffc600 0,#ffbe00 100%;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc600',endColorstr='#ffbe00',GradientType=0);
-  z-index: auto;
+  z-index: auto;*/
 
 	/*background-size: 100%;*/
 	min-height: 50px
@@ -957,7 +959,11 @@ a:hover {
 
 .featured-2 {
 	/*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;*/
-	background: #ffcd00;
+
+	background: #ffcd00 url(img/blue-sky.jpg) no-repeat center top;
+	background-size: cover;
+
+	/*background: #ffcd00;
   background: -moz-linear-gradient(top,#ffc600 0,#ffbe00 100%);
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffc600),color-stop(100%,#ffbe00));
   background: -webkit-linear-gradient(top,#ffc600 0,#ffbe00 100%);
@@ -965,7 +971,7 @@ a:hover {
   background: -ms-linear-gradient(top,#ffc600 0,#ffbe00 100%);
   background: linear,to bottom,#ffc600 0,#ffbe00 100%;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc600',endColorstr='#ffbe00',GradientType=0);
-  z-index: auto;
+  z-index: auto;*/
 }
 
 .date {

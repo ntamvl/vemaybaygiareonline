@@ -19,7 +19,7 @@
   <div id="container-iframe" class="row">
     <div class="col-sm-12 col-md-12 fill no-margin-lr">
       <img id="loader_box" src="<?php echo get_stylesheet_directory_uri(); ?>/img/loading-2.gif" width="128" height="128" alt="loading gif"/>
-      <iframe id="iframe_flights" class="fill" src="<?php echo $search_url; ?>"></iframe>
+      <iframe id="iframe_flights" class="fill" src="<?php echo $search_url; ?>" onload="window.parent.scrollTo(0,0)" allowtransparency="true"></iframe>
       <!-- onload="window.parent.scrollTo(0,0)" allowtransparency="true" -->
     </div>
   </div>
