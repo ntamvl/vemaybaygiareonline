@@ -28,9 +28,9 @@
 		<!-- Nav tabs -->
 		<ul class="nav nav-tabs" id="myTab">
 
-			<li class="active"><a href="#home" data-toggle="tab"> <i class="fa fa-bolt"></i> Tin khuyến mãi</a></li>
-			<li><a href="#profile" data-toggle="tab"> <i class="fa fa-clock-o"></i> Tin mới nhất</a></li>
-			<li><a href="#top-views" data-toggle="tab"> <i class="fa fa-clock-o"></i> Xem nhiều nhất</a></li>
+			<li class="active"><a href="#home" data-toggle="tab"> <i class="fa fa-bolt"></i> Khuyến mãi</a></li>
+			<li><a href="#profile" data-toggle="tab"> <i class="fa fa-clock-o"></i> Mới nhất</a></li>
+			<li><a href="#top-views" data-toggle="tab"> <i class="fa fa-eye"></i> Xem nhiều nhất</a></li>
 
 		</ul>
 
