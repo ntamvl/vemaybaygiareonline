@@ -12,7 +12,7 @@
   $key = md5($now->getTimestamp());
   $search_url = "http://flightbooking.vn/booking/". $trip_type ."/". $departure ."/". $destination .
                   "/". $from_date ."/". $to_date ."/" . $adult . $children . $infant . "/" . $key .
-                  "?source=vemaygiareonline-net&iframe_page=true";
+                  "?source=vemaygiareonline.net&iframe_page=true";
 ?>
 
 <div class="col-md-9 cont-grid iframe-row">
