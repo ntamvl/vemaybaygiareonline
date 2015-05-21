@@ -30,10 +30,10 @@
 
 
 				<div class="sing-tit-cont">
+					<h2 class="cat"><?php the_category(','); ?></h2>
+					<!-- <p class="cat"></p> -->
 
-					<p class="cat"> <?php the_category(','); ?></p>
-
-					<h3 class="sing-tit"><?php the_title(); ?></h3>
+					<h1 class="sing-tit"><?php the_title(); ?></h1>
 
 					<p class="meta">
 

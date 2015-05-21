@@ -320,6 +320,15 @@ a:focus, a:hover {
 	font-weight: 700;
 	font-size: 13px;
 }
+
+.cat h2 {
+	margin: 10px 0 0 0;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+}
+
 .tag-post {
 	color: #02c29d;
 	text-transform: capitalize;
@@ -750,12 +759,13 @@ textarea {
 	margin-top: 15px;
 }
 h1.title-search {
-	font-size: 16px;
+	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
 	color: #666;
 	margin: 0;
 	text-transform: uppercase;
+	display: inline;
 }
 h2.title-search {
 	font-size: 28px;
@@ -764,6 +774,7 @@ h2.title-search {
 	color: #0090ff;
 	margin: 0;
 	text-transform: uppercase;
+	display: inline;
 }
 
 h2.title-search-sidebar {
@@ -895,6 +906,14 @@ html, body {
 }
 
 .hotline h2 {
+	/*color: #428bca;*/
+	color: #0090ff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hotline h1 {
 	/*color: #428bca;*/
 	color: #0090ff;
   text-transform: uppercase;
