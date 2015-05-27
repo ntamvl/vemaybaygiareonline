@@ -40,7 +40,7 @@
 			<div class="tab-pane fade in active" id="home">
 
 				<?php // POPULAR POST
-				$posts_per_page = 10;
+				$posts_per_page = 12;
 
 				$popular_query = array(
 													'posts_per_page' => $posts_per_page,
