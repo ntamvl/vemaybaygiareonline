@@ -162,6 +162,14 @@ $(document).ready(function(){
   $.getJSON( "<?php echo get_stylesheet_directory_uri(); ?>/js/active_airports.json", function( airport_list ) {
     $(".departure-search").select2({data: airport_list});
     $(".destination-search").select2({data: airport_list});
+
+    // begin set value for search form when search submit
+    <?php if ( !empty($_GET['departure']) && !empty($_GET['destination']) ) { ?>
+    $("#select2-airport-code-1").select2("val", "<?php echo $_GET['departure']; ?>");
+    $("#select2-airport-code-2").select2("val", "<?php echo $_GET['destination']; ?>");
+    <?php } ?>
+    // end set value for search form when search submit
+
   });
   // End ajax call airport code
 
@@ -182,6 +190,16 @@ $(document).ready(function(){
   }
 
   // jQuery('#container-iframe').height($(window).height());
+
+  // begin set value for search form when search submit
+  <?php if ( !empty($_GET['from_date']) && !empty($_GET['to_date']) ) { ?>
+  $("#from_date").val("<?php echo $_GET['from_date']; ?>");
+  $("#to_date").val("<?php echo $_GET['to_date']; ?>");
+  $("#adult > [value='<?php echo $_GET['adult']; ?>']").attr("selected", "true");
+  $("#child > [value='<?php echo $_GET['children']; ?>']").attr("selected", "true");
+  $("#infant > [value='<?php echo $_GET['infant']; ?>']").attr("selected", "true");
+  <?php } ?>
+  // end set value for search form when search submit
 
 });
 
