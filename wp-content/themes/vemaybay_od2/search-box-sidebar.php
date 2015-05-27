@@ -42,13 +42,13 @@
       <div class="col-md-12">
         <span class="title-search-mini">Ngày đi</span>
         <div class="wap-field-form">
-          <input type="text" class="form-control style-form2 from_date" name="from_date" />
+          <input type="text" class="form-control style-form2 from_date" name="from_date" id="from_date" />
         </div>
       </div>
       <div class="col-md-12">
         <span class="title-search-mini">Ngày về</span>
         <div class="wap-field-form">
-          <input type="text" class="form-control style-form2 to_date" name="to_date">
+          <input type="text" class="form-control style-form2 to_date" name="to_date" id="to_date">
         </div>
       </div>
     </div>
