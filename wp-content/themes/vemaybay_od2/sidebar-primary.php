@@ -46,7 +46,17 @@
 													'posts_per_page' => $posts_per_page,
 													// 'meta_key' => 'wpb_post_views_count',
 													// 'orderby' => 'meta_value_num',
-													'tag_slug__in' => array( 'promotion', 've may bay khuyen mai', 'khuyen mai', 'vé máy bay khuyến mãi', 'vé máy bay giá rẻ' ),
+													'tag_slug__in' => array(
+                                                  've-may-bay',
+                                                  've-may-bay-vietjet',
+                                                  've-may-bay-jetstar',
+                                                  've-may-bay-vietnam-airlines',
+                                                  've-may-vietjet-gia-re',
+                                                  'promotion',
+                                                  've-may-bay-khuyen-mai',
+                                                  'khuyen mai',
+                                                  've may bay gia re'
+                                                ),
 													'orderby' => 'date',
 													'order' => 'DESC'
 												);
