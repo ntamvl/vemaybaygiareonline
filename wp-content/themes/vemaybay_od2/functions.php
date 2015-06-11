@@ -277,4 +277,7 @@ $role = get_role( 'author' );
 // add "organize_gallery" to this role object
 $role->add_cap( 'unfiltered_html' );
 
+$page_data = get_page_by_path('thong-tin-dat-ve-may-bay-gia-re');
+apply_filters('the_content', $page_data->post_content);
+
 ?>
