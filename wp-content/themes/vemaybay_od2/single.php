@@ -70,8 +70,9 @@
 							// $args = array('name' => 'thong-tin-dat-ve-may-bay-gia-re', 'post_type' => 'page');
 							// $posts_from_slug = get_posts( $args );
 							// echo $posts_from_slug[0]->post_content;
-							// $page_data = get_page_by_path('thong-tin-dat-ve-may-bay-gia-re');
+							$page_data = get_page_by_path('thong-tin-dat-ve-may-bay-gia-re');
 							// echo $page_data->post_content;
+							echo apply_filters('the_content', $page_data->post_content);
 					 	?>
 
 						<?php wp_link_pages('pagelink=Page %'); ?>
