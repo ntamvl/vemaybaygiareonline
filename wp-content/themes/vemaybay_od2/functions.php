@@ -271,4 +271,10 @@ function tag_widget_limit($args){
 
  return $args;
 }
+
+// get the "author" role object
+$role = get_role( 'author' );
+// add "organize_gallery" to this role object
+$role->add_cap( 'unfiltered_html' );
+
 ?>
