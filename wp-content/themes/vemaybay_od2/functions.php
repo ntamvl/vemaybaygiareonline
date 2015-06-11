@@ -263,7 +263,9 @@ function tag_widget_limit($args){
   $args = array(
   	'number' => 10,
   	'orderby' => 'term_id',
-  	'order' => 'DESC'
+  	'order' => 'DESC',
+  	'smallest' => 8,
+    'largest' => 22
 	);
  }
 
