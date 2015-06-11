@@ -71,6 +71,7 @@
 							$posts_from_slug = get_posts( $args );
 							echo $posts_from_slug[0]->post_content;
 					 	?>
+					 	<br/>
 
 						<?php wp_link_pages('pagelink=Page %'); ?>
 
