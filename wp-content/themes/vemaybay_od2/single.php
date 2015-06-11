@@ -71,9 +71,25 @@
 							// $posts_from_slug = get_posts( $args );
 							// echo $posts_from_slug[0]->post_content;
 							$page_data = get_page_by_path('thong-tin-dat-ve-may-bay-gia-re');
-							// echo $page_data->post_content;
-							remove_filter( 'the_content' );
+
+							function remove_filters_kk_rating( $hook = '' ) {
+							    global $wp_filter;
+							    if( empty( $hook ) || !isset( $wp_filter[$hook] ) )
+							        return;
+
+					      	foreach ($wp_filter[$hook] as $key_filter) {
+					      		foreach ($key_filter as $key => $value) {
+								    	if (strpos($key,'filter') !== false) {
+												remove_filter( 'the_content', $key );
+								    	}
+								    }
+					      	}
+
+							}
+							remove_filters_kk_rating( 'the_content' );
+
 							echo apply_filters('the_content', $page_data->post_content);
+
 					 	?>
 
 						<?php wp_link_pages('pagelink=Page %'); ?>
