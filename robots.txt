@@ -4,6 +4,7 @@ Allow: /wp-content/uploads/
 Disallow: /wp-content/plugins/
 Disallow: /wp-admin/
 Disallow: /readme.html
+Disallow: /thong-tin-dat-ve-may-bay-gia-re/
 
 Sitemap: http://www.vemaybaygiareonline.net/sitemap_index.xml
 Sitemap: http://www.vemaybaygiareonline.net/post-sitemap.xml
