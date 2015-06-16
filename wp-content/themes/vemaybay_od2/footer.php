@@ -1,5 +1,19 @@
-<div class="col-md-12 footer">
-  &copy; Copyright <?php echo date("o");?>   &nbsp; <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i>  <span><?php bloginfo('name'); ?></span>
+<div class="row footer">
+  <div class="col-md-9 footer-2">
+    &copy; Copyright <?php echo date("o");?>   &nbsp; <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i>  <span><?php bloginfo('name'); ?></span>
+  </div>
+  <div class="col-md-3 footer-social">
+    <span class="pull-right">
+      <a href="https://www.facebook.com/pages/Vemaybaygiareonlinenet/472085502944326?fref=ts" target="_blank">
+        <img height="50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/64-facebook.png" alt="ve may bay gia re online facebook icon flat">
+      </a>
+    </span>
+    <span class="pull-right">
+      <a href="https://plus.google.com/u/0/103441749640621479745" target="_blank">
+        <img height="50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/64-googleplus.png" alt="ve may bay gia re online google plus icon flat">
+      </a>
+    </span>
+  </div>
 </div>
 
 
