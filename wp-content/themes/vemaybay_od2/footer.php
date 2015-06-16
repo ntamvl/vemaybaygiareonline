@@ -1,11 +1,5 @@
 <div class="col-md-12 footer">
-  <div class="col-md-10">
-  	&copy; Copyright <?php echo date("o");?>   &nbsp; <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i>  <span><?php bloginfo('name'); ?></span>
-  	<!-- <span>. Một sản phẩm của <a href="http://flightbooking.vn">Flightbooking.vn</a></span> -->
-  </div>
-  <div class="col-md-2">
-    <!-- <div class="fb-like text-right pull-right" data-href="https://www.facebook.com/pages/Vemaybaygiareonlinenet/472085502944326?fref=ts" data-layout="standard" data-action="like" data-show-faces="false" data-share="true" data-colorscheme="light"></div> -->
-  </div>
+  &copy; Copyright <?php echo date("o");?>   &nbsp; <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right arrow"></i>  <span><?php bloginfo('name'); ?></span>
 </div>
 
 
