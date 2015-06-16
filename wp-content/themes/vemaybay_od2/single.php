@@ -40,6 +40,7 @@
 						<span class="post-view">
 							<i class="fa fa-eye"></i>
 							<?php echo get_post_meta( get_the_ID(), 'wpb_post_views_count', true ); ?> lượt xem</span>
+						<div class="fb-like" data-href="<?php the_permalink(); ?>" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
 
 						<?php
 						$video = get_post_meta($post->ID, 'fullby_video', true );
